@@ -7,19 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		877508BA26C12EEE0030A2E4 /* RxConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = 877508B926C12EEE0030A2E4 /* RxConnect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		877508BD26C1300C0030A2E4 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 877508BC26C1300C0030A2E4 /* RxSwift */; };
 		877508C126C1300C0030A2E4 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 877508C026C1300C0030A2E4 /* RxRelay */; };
 		877508C326C1300C0030A2E4 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 877508C226C1300C0030A2E4 /* RxCocoa */; };
 		877508C826C130300030A2E4 /* NSObject-Rx in Frameworks */ = {isa = PBXBuildFile; productRef = 877508C726C130300030A2E4 /* NSObject-Rx */; };
-		877508CA26C130560030A2E4 /* Observable+Connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877508C926C130560030A2E4 /* Observable+Connect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		877508AC26C129A80030A2E4 /* RxConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		877508B726C12CBB0030A2E4 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
-		877508B926C12EEE0030A2E4 /* RxConnect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxConnect.h; sourceTree = "<group>"; };
-		877508C926C130560030A2E4 /* Observable+Connect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Connect.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,8 +36,6 @@
 		877508A226C129A80030A2E4 = {
 			isa = PBXGroup;
 			children = (
-				877508C926C130560030A2E4 /* Observable+Connect.swift */,
-				877508B926C12EEE0030A2E4 /* RxConnect.h */,
 				877508B726C12CBB0030A2E4 /* Sources */,
 				877508AD26C129A80030A2E4 /* Products */,
 			);
@@ -62,7 +56,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				877508BA26C12EEE0030A2E4 /* RxConnect.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +136,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				877508CA26C130560030A2E4 /* Observable+Connect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
