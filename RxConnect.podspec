@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "RxConnect"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "Extension on RxSwift library, that makes binding code much cleaner"
   spec.description  = <<-DESC
       RxConnect offers to you a connect closure as a way to deal with disposing your subscriptions
