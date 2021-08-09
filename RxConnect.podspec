@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.version      = "0.1.0"
   spec.summary      = "Extension on RxSwift library, that makes binding code much cleaner"
   spec.description  = <<-DESC
-      Extension on RxSwift library, that makes binding code much cleaner
+      RxConnect offers to you a connect closure as a way to deal with disposing your subscriptions
                    DESC
   spec.homepage     = "https://github.com/lolsmh/RxConnect"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
