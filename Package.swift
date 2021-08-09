@@ -10,8 +10,8 @@ let package = Package(
         .library(name: "RxConnect", targets: ["RxConnect"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0")),
-        .package(url: "https://github.com/RxSwiftCommunity/NSObject-Rx", .upToNextMajor(from: "5.1.1"))
+        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.2.0")),
+        .package(url: "https://github.com/RxSwiftCommunity/NSObject-Rx", .upToNextMajor(from: "5.2.2"))
     ],
     targets: [
         .target(name: "RxConnect", dependencies: [
