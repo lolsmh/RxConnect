@@ -61,3 +61,8 @@ relay.connect(self) {
     print("Hello World")
 }
 ```
+## Installation
+### Cocoapods
+```
+    pod 'RxConnect', :git => "https://github.com/lolsmh/RxConnect.git"
+```
